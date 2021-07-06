@@ -6,6 +6,9 @@ CrossC2通信协议API实现，可兼容使用C2Profile`https://github.com/threa
 
 # 使用
 
+gcc编译使用的环境要靠近执行beacon的机器环境
+
+
 ```bash
 gcc c2profile.c -fPIC -shared -o CrossC2-C2Profile.so
 ```
